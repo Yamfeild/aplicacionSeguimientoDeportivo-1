@@ -1,0 +1,65 @@
+{% extends 'base_deporte.html' %}
+
+{% block titulo %}
+    Noticia
+{% endblock %}
+    {% block contenido %}
+    <h1>Noticia</h1>
+<p>
+<p>
+
+</p>
+
+<div class="card text-center">
+
+    <div class="card-body">
+        <div class="card" style="display: block; margin: 0 auto; width: 50%; ">
+            <img src="images/bai.jpeg" class="card-img-top" alt="width: 500 px;  height: 200px">
+            <h5 class="card-title">El Tribunal Federal Suizo desestimó apelación de Byron Castillo</h5>
+            <p class="card-text">El Tribunal Federal Suizo desestimó el recurso civil, que presentó el futbolista ecuatoriano jugador Byron Castillo en contra el laudo del TAS, que le impidió jugar el Mundial Qatar 2022 y que castigó a la Federación Ecuatoriana de Fútbol (FEF) con tres puntos para las próximas Eliminatorias Sudamericanas.</p>
+            <a href="#" class="btn btn-primary">Mas info.</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            2 days ago
+        </div>
+    </div>
+
+
+    <div class="card text-center">
+        <div class="card-header">
+            UNITED STATE
+        </div>
+        <div class="card text-center">
+
+            <div class="card-body">
+                <div class="card" style="display: block; margin: 0 auto; width: 50%; ">
+                    <img src="images/bas.jpeg" class="card-img-top" alt="width: 500 px;  height: 200px">
+                    <h5 class="card-title">¿Kyrie Irving puede ser la coestrella de Luka Doncic y liderar a los Mavs?</h5>
+                    <p class="card-text">Esta temporada baja, Kyrie Irving acordó un contrato de tres años y $126 millones para regresar a los Dallas Mavericks, en lo que será un reinicio en la carrera del base estrella.</p>
+                    <a href="#" class="btn btn-primary">Mas info.</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                    2 days ago
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div class="card-header">
+                    UNITED STATE
+                </div>
+                <div class="card text-center">
+
+                    <div class="card-body">
+                        <div class="card" style="display: block; margin: 0 auto; width: 50%; ">
+                            <img src="images/messi.jpeg" class="card-img-top" alt="width: 500 px;  height: 200px">
+                            <h5 class="card-title">Lionel Messi podría realizar su debut como titular en Inter Miami ante Atlanta United</h5>
+                            <p class="card-text">El Tata Martino dio una conferencia de prensa en la previa del choque entre Inter Miami y Atlanta United por la Leagues Cup y aseguró que Lionel Messi podría ser titular para dicho encuentro.</p>
+                            <a href="#" class="btn btn-primary">Mas info.</a>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            2 days ago
+                        </div>
+                    </div>
+                </div>
+</html>
+                {% endblock %}
