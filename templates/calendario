@@ -1,0 +1,74 @@
+{% extends 'base_deporte.html' %}
+
+{% block titulo %}
+    Calendario
+{% endblock %}
+    {% block contenido %}
+    <h1>Calendario</h1>
+<p>
+
+</p>
+<p>
+
+</p>
+
+
+<div class="card text-center">
+            <div class="card-header">
+            Copa del Mundo - Fútbol Femenino
+        </div>
+        <div class="card text-center">
+                <div class="card-body">
+                    <div class="card" style="display: block; margin: 0 auto; width: 50%; ">
+                        <div class="row align-items-start">
+                <div class="col">
+                  <img src="images/colombia.jpeg" class="card-img-top" alt="width: 500 px;  height: 200px">
+
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <img src="images/ecuador.jpeg" class="card-img-top" alt="width: 250 px;  height: 100px">
+
+
+                </div>
+            <div class="container text-center">
+              <div class="row align-items-start">
+                <div class="col">
+                  COLOMBIA
+                </div>
+                <div class="col">
+                  VS.
+                </div>
+                <div class="col">
+                  ECUADOR
+                </div>
+              </div>
+            </div>
+
+
+                 <div class="row align-items-start">
+                <div class="col">
+
+
+                </div>
+                <div class="col">
+                  24/07/2023  10:00 AM
+                </div>
+                <div class="col">
+
+                </div>
+                        <p>
+
+            </p>
+                  <div class="container text-center">
+            <a href="#" class="btn btn-primary">Mas info.</a>
+        </div>
+                     <p>
+                 </p>
+
+
+
+</html>
+                     {% endblock %}
